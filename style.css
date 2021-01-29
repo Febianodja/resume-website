@@ -78,6 +78,7 @@ header ul li a {
     color: gray;
     font-size: 2em;
     font-weight: 100;
+    letter-spacing: 1px;
 }
 
 .content .mainText p {
@@ -97,6 +98,18 @@ header ul li a {
     letter-spacing: 1px;
 }
 
+.content .mainImage {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    padding-left: 80px;
+}
+
+.content .mainImage img {
+    max-width: 420px;
+    border-radius: 300px;
+}
+
 .social-media-button {
     position: absolute;
     top: 50%;
@@ -105,7 +118,7 @@ header ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .social-media-button li {
@@ -119,4 +132,40 @@ header ul li a {
     transform: scale(1);
     font-size: 30px;
     color: #fff;
+}
+
+.social-media-button li a:hover {
+    color:gray;
+}
+
+header ul li a:hover{
+    color: gray;
+}
+
+.content .mainText a:hover {
+    background: gray;
+}
+
+.portfolio ul li a{
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.about ul li a{
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.contact ul li a{
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
 }
